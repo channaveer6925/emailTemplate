@@ -1,0 +1,40 @@
+    .container {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        background-image: url("assets//GDC-Email\ Blast.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 100vh;
+        position: relative;
+
+
+    }
+    .content{
+        position: absolute;
+        top: 28%;
+
+    }
+    .heading{
+        font-size: 36px;
+        font-weight: 700;
+        color: #000000
+        ;
+        line-height: 43.57px;
+        letter-spacing: ;
+    }
+
+
+
+
+
+    @media screen and (max-width: 600px) {
+        .container{
+            width: 100%;
+            height: 100vh;
+        }
+        .content{
+            top: 32%;
+        }
+    }
